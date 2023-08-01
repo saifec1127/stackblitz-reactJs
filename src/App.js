@@ -10,7 +10,7 @@ export default function App() {
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
-    
+
   };
 
   const HandleChange = (event) => {
@@ -67,7 +67,7 @@ export default function App() {
         </label>
         <br />
         <br />
-        <button>Click</button>
+        <button className='btn_click'>Click</button>
       </form>
       {errorMessage && <p className="alert_p">{errorMessage}</p>}
       <div>
