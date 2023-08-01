@@ -73,9 +73,11 @@ export default function App() {
       <div>
         {wins.map((item) => {
           return (
-            <p key={item.id}>
+            <div >
+            <p className='result' key={item.id}>
               {item.win + ' ' + (item.option ? item.option : '')}
             </p>
+            </div>
           );
         })}
       </div>
