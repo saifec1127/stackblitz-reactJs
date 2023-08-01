@@ -10,6 +10,7 @@ export default function App() {
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
+    
   };
 
   const HandleChange = (event) => {
